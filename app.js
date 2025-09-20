@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
-import responses from "./responses.json" assert { type: "json" };
+import responses from "./responses.json" with { type: "json" };
 import {
   ButtonStyleTypes,
   InteractionResponseFlags,
